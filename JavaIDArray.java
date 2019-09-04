@@ -1,10 +1,9 @@
 import java.util.*;
 
-public class Solutions {
+public class JavaIDArray {
 
     public static boolean canWin(int leap, int[] game) {
         ArrayDeque<Integer> indexesToCheck = new ArrayDeque<>();
-//        ArrayDeque<Integer> indexesChecked = new ArrayDeque<>();
         indexesToCheck.add(0);
 
         int lengthofIndextoCheck = indexesToCheck.size();
