@@ -29,7 +29,7 @@ public class JavaIDArray {
             }
             game[currentIndex] = 1;
 
-//            indexesChecked.addLast(currentIndex);
+//     
             indexesToCheck.removeFirst();
             lengthofIndextoCheck = indexesToCheck.size();
            try {
